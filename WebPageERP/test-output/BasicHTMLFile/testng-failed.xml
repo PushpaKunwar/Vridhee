@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [BasicHTMLFile]">
+  <test thread-count="5" parallel="tests" name="TestNGDemo(failed)">
+    <classes>
+      <class name="com.ERP.ERP_Virdhee">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.ERP.ERP_Virdhee -->
+    </classes>
+  </test> <!-- TestNGDemo(failed) -->
+</suite> <!-- Failed suite [BasicHTMLFile] -->

@@ -1,0 +1,13 @@
+package com.examples;
+
+import org.testng.annotations.Test;
+
+public class Example1 {
+
+@Test
+public void demo()
+{
+	System.out.println("hello1");
+}
+
+}

@@ -1,0 +1,34 @@
+package com.ERPFunctions;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class ERP_Element {
+	WebDriver driver;
+	@Test
+	public void Browserlaunch()
+	
+	{
+		System.setProperty("webdriver.chrome.driver","./Driverfiles/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.selenium.dev/downloads/");
+		System.out.println("I am from functionality method");
+	}
+	
+	@Test
+    public void functionlity1()
+	
+	{
+		System.out.println("I am from functionality2 method");
+	}
+	
+	@Test
+	public void functionlity2()
+		
+		{
+			System.out.println("I am from functionality3 method");
+		}
+	
+
+}

@@ -1,0 +1,8 @@
+<suite name ="BasicHTMLFile">
+	<test name="TestNGDemo">
+		<classes>
+			<class name="com.ERP.ERP_Virdhee.java"></class>
+	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,14 @@
+<suite name ="BasicHTMLFile">
+	<test name="TestNGDemo">
+		<classes>
+			<class name="com.ERP.ERP_Virdhee"/>
+		</classes>
+	</test>
+	
+		<test name="TestNG">
+		<classes>
+			<class name="ERP_functions.ERP02"/>
+		</classes>
+	</test>
+
+</suite>
